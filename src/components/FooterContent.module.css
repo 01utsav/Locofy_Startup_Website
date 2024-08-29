@@ -1,0 +1,295 @@
+.petentium {
+  position: relative;
+  letter-spacing: 5px;
+  line-height: 125%;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 121px;
+}
+.petentiumWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  color: var(--color-green-100);
+}
+.contentiones {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 125%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.contentionesWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-16xl);
+  font-size: var(--typography-heading-bold-1-size);
+  font-family: var(--typography-heading-bold-4);
+}
+.loremIpsumDolor {
+  margin-block-start: 0;
+  margin-block-end: 10px;
+}
+.adipisicingElit {
+  margin: 0;
+}
+.zrilPetentiumSitContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--typography-sub-heading-regular-size);
+  line-height: 125%;
+}
+.columnOne,
+.frameParent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  width: 411px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.columnOne {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.xmlid1Icon,
+.xmlid24Icon {
+  align-self: stretch;
+  position: relative;
+}
+.xmlid24Icon {
+  width: 152.6px;
+  max-height: 100%;
+  min-height: 50px;
+}
+.xmlid1Icon {
+  height: 45px;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.listItem {
+  width: 210.9px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs-5) 0 0;
+  box-sizing: border-box;
+}
+.groupIcon,
+.xmlid1Icon1 {
+  align-self: stretch;
+  position: relative;
+}
+.xmlid1Icon1 {
+  width: 160.3px;
+  max-height: 100%;
+  min-height: 50px;
+}
+.groupIcon {
+  height: 38px;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.icon {
+  width: 196.4px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0 0;
+  box-sizing: border-box;
+}
+.xmlid1Icon2 {
+  align-self: stretch;
+  width: 166.8px;
+  position: relative;
+  max-height: 100%;
+  min-height: 50px;
+}
+.columnTwo {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.columnThree,
+.columns,
+.columnsWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.columns {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-36xl);
+}
+.columnThree,
+.columnsWrapper {
+  align-self: stretch;
+}
+.columnsWrapper {
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-3xs) var(--padding-54xl-7) var(--padding-2xs);
+  box-sizing: border-box;
+}
+.columnThree {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-54xl-6);
+  text-align: left;
+  font-size: var(--typography-heading-bold-1-size);
+  color: var(--color-dark);
+  font-family: var(--typography-heading-bold-4);
+}
+.scriptorem {
+  position: relative;
+  letter-spacing: 5px;
+  line-height: 125%;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 61px;
+}
+.scriptoremWrapper,
+.sitAliiTantasWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.sitAliiTantasWrapper {
+  font-size: var(--typography-heading-bold-1-size);
+  color: var(--color-dark);
+  font-family: var(--typography-heading-bold-4);
+}
+.vixHabeoScaevolaContainer {
+  position: relative;
+  font-size: var(--typography-sub-heading-regular-size);
+  line-height: 125%;
+  color: var(--text-black);
+}
+.fields {
+  width: 404px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.columnFour,
+.contact,
+.fields,
+.teamContent {
+  display: flex;
+  align-items: flex-start;
+}
+.teamContent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-28xl);
+  text-align: left;
+  font-size: var(--typography-heading-bold-4-size);
+  color: var(--color-dark);
+  font-family: var(--typography-heading-bold-4);
+}
+.columnFour,
+.contact {
+  max-width: 100%;
+}
+.contact {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-26xl);
+}
+.columnFour {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xs);
+  box-sizing: border-box;
+  color: var(--color-green-100);
+}
+.footerContent {
+  width: 1180px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-83xl-3);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--typography-label-bold-size);
+  color: var(--text-black);
+  font-family: var(--typography-sub-heading-regular);
+}
+@media screen and (max-width: 1200px) {
+  .columnThree {
+    gap: var(--gap-18xl);
+  }
+  .teamContent {
+    flex-wrap: wrap;
+  }
+  .footerContent {
+    gap: var(--gap-32xl);
+  }
+}
+@media screen and (max-width: 1050px) {
+  .contentiones {
+    font-size: var(--font-size-13xl);
+    line-height: 40px;
+  }
+  .columnTwo {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 750px) {
+  .columns {
+    gap: var(--gap-8xl);
+  }
+  .columnThree {
+    gap: var(--gap-lg);
+  }
+  .teamContent {
+    gap: var(--gap-4xl);
+  }
+  .contact {
+    gap: var(--gap-3xl);
+  }
+  .footerContent {
+    gap: var(--gap-7xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .contentiones {
+    font-size: var(--typography-heading-bold-4-size);
+    line-height: 30px;
+  }
+  .vixHabeoScaevolaContainer,
+  .zrilPetentiumSitContainer {
+    font-size: var(--typography-label-bold-size);
+    line-height: 20px;
+  }
+}

@@ -1,0 +1,144 @@
+.rectangle {
+  height: 123px;
+  width: 1440px;
+  position: relative;
+  background-color: var(--color-green-100);
+  display: none;
+  max-width: 100%;
+}
+.frameChild {
+  height: 48.3px;
+  width: 70px;
+  position: relative;
+}
+.start {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 125%;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 99px;
+  white-space: nowrap;
+}
+.frameGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.contact,
+.home,
+.portfolio,
+.services {
+  position: relative;
+  line-height: 125%;
+  display: inline-block;
+}
+.home {
+  min-width: 58px;
+  cursor: pointer;
+}
+.contact,
+.portfolio,
+.services {
+  min-width: 83px;
+}
+.contact,
+.services {
+  min-width: 82px;
+  cursor: pointer;
+}
+.contact {
+  min-width: 78px;
+}
+.homeParent {
+  margin: 0;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: right;
+  font-size: var(--typography-sub-heading-regular-size);
+  color: var(--color-white-100);
+  font-family: var(--typography-sub-heading-regular);
+}
+.frameParent,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameWrapper {
+  margin: 0;
+  width: 391px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-smi-5) 0 0;
+  box-sizing: border-box;
+}
+.frameParent {
+  width: 1175px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.contentChild,
+.contentInner,
+.contentItem,
+.frameDiv {
+  height: 62px;
+  width: 71px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  cursor: pointer;
+}
+.contentInner,
+.contentItem,
+.frameDiv {
+  height: 84px;
+  width: 93px;
+}
+.contentInner,
+.frameDiv {
+  height: 73px;
+  width: 85px;
+}
+.frameDiv {
+  height: 65px;
+  width: 91px;
+}
+.content {
+  align-self: stretch;
+  background-color: var(--color-green-100);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-16xl) var(--padding-xl) var(--padding-19xl)
+    var(--padding-10xl);
+  box-sizing: border-box;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--typography-heading-bold-1-size);
+  color: var(--color-white-100);
+  font-family: var(--typography-sub-heading-regular);
+}
+@media screen and (max-width: 750px) {
+  .frameWrapper {
+    display: none;
+  }
+  .frameParent {
+    width: 784px;
+  }
+}

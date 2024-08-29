@@ -1,0 +1,105 @@
+.rectangle {
+  height: 125px;
+  width: 1440px;
+  position: relative;
+  background-color: var(--color-green-100);
+  display: none;
+  mix-blend-mode: normal;
+  max-width: 100%;
+}
+.logosChild {
+  align-self: stretch;
+  width: 9.6px;
+  position: relative;
+  max-height: 100%;
+  min-height: 18px;
+}
+.logosInner,
+.logosItem {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  min-height: 18px;
+}
+.logosInner {
+  width: 21.9px;
+}
+.groupIcon {
+  height: 18px;
+  width: 13.9px;
+}
+.groupIcon,
+.logosChild1,
+.logosChild3 {
+  position: relative;
+  min-height: 18px;
+}
+.logosChild1 {
+  height: 18px;
+  width: 15.4px;
+}
+.logosChild3 {
+  align-self: stretch;
+  width: 25.7px;
+  max-height: 100%;
+}
+.logos,
+.logosWrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.logos {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.logosWrapper {
+  width: 242.5px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-9xs-5) 0 0;
+  box-sizing: border-box;
+}
+.logo2019All {
+  position: relative;
+  line-height: 125%;
+  display: inline-block;
+  mix-blend-mode: normal;
+  max-width: 100%;
+}
+.footerContent,
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.footerContent {
+  width: 1178px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.rectangleParent {
+  align-self: stretch;
+  background-color: var(--color-green-100);
+  justify-content: center;
+  padding: var(--padding-32xl) var(--padding-xl) var(--padding-30xl);
+  box-sizing: border-box;
+  text-align: right;
+  font-size: var(--typography-sub-heading-regular-size);
+  color: var(--color-white-100);
+  font-family: var(--typography-sub-heading-regular);
+}
+@media screen and (max-width: 750px) {
+  .footerContent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .logo2019All {
+    font-size: var(--typography-label-bold-size);
+    line-height: 20px;
+  }
+}
