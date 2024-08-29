@@ -1,0 +1,187 @@
+.basic {
+  line-height: 19px;
+  min-width: 39px;
+}
+.basic,
+.durationFiller,
+.month {
+  position: relative;
+  display: inline-block;
+}
+.durationFiller {
+  line-height: 125%;
+  min-width: 95px;
+  white-space: nowrap;
+}
+.month {
+  font-size: var(--typography-body-regular-size);
+  line-height: 19px;
+  color: var(--color-dark-50);
+  min-width: 55px;
+}
+.cardDuration,
+.cardHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cardDuration {
+  flex-direction: row;
+  gap: var(--gap-4xs);
+  font-size: var(--typography-heading-bold-1-size);
+}
+.cardHeader {
+  flex-direction: column;
+}
+.loremIpsumDolor {
+  align-self: stretch;
+  position: relative;
+  line-height: 125%;
+  color: var(--color-dark-50);
+  text-align: center;
+}
+.proCard {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.checkLg1Icon {
+  height: 25px;
+  width: 25px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.loremIpsumDolor1 {
+  position: relative;
+  line-height: 19px;
+}
+.checkLg1Parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+}
+.frameParent,
+.plusCard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.frameParent {
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+  text-align: center;
+  color: var(--color-dark);
+}
+.plusCard {
+  align-self: stretch;
+  justify-content: center;
+  gap: var(--gap-33xl);
+}
+.rectangle {
+  height: 48px;
+  width: 170px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-dark);
+  display: none;
+}
+.button {
+  position: relative;
+  font-size: var(--typography-sub-heading-regular-size);
+  line-height: 125%;
+  font-family: var(--typography-sub-heading-regular);
+  color: var(--color-white-100);
+  text-align: center;
+  display: inline-block;
+  min-width: 111px;
+  z-index: 1;
+}
+.darkbuttonprimarytext {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-smi) var(--padding-10xl) var(--padding-3xs);
+  background-color: var(--color-dark);
+  border-radius: var(--br-8xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.darkbuttonprimarytext:hover {
+  background-color: var(--color-dimgray);
+}
+.pricingCardButtons {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-35xl);
+}
+.basicCard,
+.pricingCardButtons,
+.pricingCards {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.basicCard {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-26xl);
+}
+.pricingCards {
+  width: 339px;
+  box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white-100);
+  flex-direction: row;
+  padding: var(--padding-27xl) var(--padding-11xl);
+  box-sizing: border-box;
+  min-width: 339px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--typography-body-regular-size);
+  color: var(--text-black);
+  font-family: var(--typography-sub-heading-regular);
+}
+@media screen and (max-width: 1025px) {
+  .durationFiller {
+    font-size: var(--font-size-13xl);
+    line-height: 40px;
+  }
+  .pricingCards {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 750px) {
+  .pricingCards {
+    padding-top: var(--padding-11xl);
+    padding-bottom: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .durationFiller {
+    font-size: var(--typography-heading-bold-4-size);
+    line-height: 30px;
+  }
+  .plusCard {
+    gap: var(--gap-7xl);
+  }
+  .pricingCardButtons {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .basicCard {
+    gap: var(--gap-3xl);
+  }
+  .pricingCards {
+    min-width: 100%;
+  }
+}

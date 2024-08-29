@@ -1,0 +1,46 @@
+.desktop1440,
+.team,
+.top {
+  display: flex;
+  align-items: flex-start;
+}
+.team {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.desktop1440,
+.top {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.top {
+  align-self: stretch;
+  gap: 60px;
+  max-width: 100%;
+}
+.desktop1440 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white-100);
+  overflow: hidden;
+  gap: 147px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .top {
+    gap: var(--gap-11xl);
+  }
+  .desktop1440 {
+    gap: 73px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .desktop1440 {
+    gap: var(--gap-18xl);
+  }
+}
